@@ -7,16 +7,12 @@ During application protoyping, I've found myself rewriting local storage methods
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'lmfs'
+gem 'lmfs', :git => 'git://github.com/mwiater/lmfs.git'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install lmfs
 
 ## Usage
 
